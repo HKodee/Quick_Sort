@@ -1,4 +1,6 @@
 public class QuickSort {
+    //Time Complexity: O(n log n) on average, O(n^2) in worst case
+    //Space Complexity: O(log n) due to recursive stack space
     public static int partition(int[] arr,int low, int high){
         int pivot = arr[high];
         int i = low - 1;
